@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+/* head section*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 38px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    width: 180px;
+}
+
+.logo>img:nth-child(1){
+    width: 30px;
+}
+
+.logo>span:nth-child(2){
+    color: #000000;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu>a {
+    position: relative;
+    color: #000000;
+    padding: 5px 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+}
+
+/* underline animation for nav links */
+
+ul.my-list a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0px;
+    height: 2px;
+    background: #96ff16;
+    transition: all 0.7s ease-out;
+}
+
+/* underline animation for nav links */
+
+ul.my-list a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+#btn{
+    background-color: transparent;
+    border: 1px solid #000000;
+    padding: 17px 14px;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.2s linear;
+}
+
+#btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* hamburger icons */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    -webkit-transition: all 1s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #000000;
+}
+
+/* hamburger icons */
+/* head section end*/
+
+/* main secion start */
+/* section one */
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 80px;
+}
+
+
+.s1-child{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0px;
+}
+
+.s1-headind{
+    width: 450px;
+}
+
+.s1-headind>h1{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+
+.s1-paragraph{
+    width: 450px;
+}
+
+.s1-paragraph>p{
+    font-size: 1.15rem;
+}
+
+.s1-img>img{
+    width: 440px;
+}
+
+.section2{
+    width: 100%;
+}
+
+.section2>img{
+    width: 100%;
+}
+
+.section3{
+    display: flex;
+    gap: 30px;
+}
