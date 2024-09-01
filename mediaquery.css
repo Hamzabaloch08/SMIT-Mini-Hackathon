@@ -350,7 +350,7 @@ ul.my-list a:hover:after {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 80px 50px;
+        padding: 160px 80px;
     }
 
     .s1-child {
@@ -557,11 +557,11 @@ ul.my-list a:hover:after {
     .logo {
         letter-spacing: 1px;
         text-decoration: none;
-        width: 120px;
+        width: 122px;
     }
 
-    .logo>img:nth-child(1) {
-        width: 20px;
+    .logo>i>img:nth-child(1) {
+        width: 22px;
     }
 
     .logo>span:nth-child(2) {
@@ -603,7 +603,7 @@ ul.my-list a:hover:after {
     /* head section end  */
     .section1 {
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 150px 20px;
     }
 
     .s1-child {
@@ -810,7 +810,7 @@ ul.my-list a:hover:after {
 
     .section1 {
         flex-direction: column;
-        padding: 30px 0px;
+        padding: 150px 0px;
     }
 
     .s1-child {
