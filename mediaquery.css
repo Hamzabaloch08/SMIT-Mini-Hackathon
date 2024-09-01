@@ -91,42 +91,42 @@
 
     /* hamburger icons */
     /* head section end*/
+/* section one */
 
-    .section1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 80px 0px;
-    }
-    
-    
-    .s1-child{
-        display: flex;
-        flex-direction: column;
-        gap: 50px 0px;
-    }
-    
-    .s1-headind{
-        width: 700px;
-    }
-    
-    .s1-headind>h1{
-        font-size: 5rem;
-        font-weight: 500;
-    }
-    
-    .s1-paragraph{
-        width: 530px;
-    }
-    
-    .s1-paragraph>p{
-        font-size: 1.8rem;
-    }
-    
-    .s1-img>img{
-        width: 650px;
-    }
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 80px;
+}
 
+
+.s1-child{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0px;
+}
+
+.s1-headind{
+    width: 450px;
+}
+
+.s1-headind>h1{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+
+.s1-paragraph{
+    width: 450px;
+}
+
+.s1-paragraph>p{
+    font-size: 1.15rem;
+}
+
+.s1-img>img{
+    width: 440px;
+}
 }
 
 @media screen and (max-width: 1024px) {
@@ -203,140 +203,141 @@
         align-items: center;
         padding: 80px 50px;
     }
-    
+
     .s1-child {
         display: flex;
         flex-direction: column;
         gap: 20px 0;
     }
-    
+
     .s1-headind {
         width: 400px;
     }
-    
-    .s1-headind > h1 {
+
+    .s1-headind>h1 {
         font-size: 2.8rem;
         font-weight: 500;
     }
-    
+
     .s1-paragraph {
         width: 315px;
     }
-    
-    .s1-paragraph > p {
+
+    .s1-paragraph>p {
         font-size: 0.9rem;
     }
-    
-    .s1-img > img {
+
+    .s1-img>img {
         width: 350px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
-/* head section */
+    /* head section */
 
-nav {
-    display: flex;
-    align-items: center;
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: 0;
+        display: none;
+        top: 4rem;
+        flex-direction: column;
+        background-color: #96ff16;
+        color: black;
+        width: 100%;
+        transition: all 0.2s linear;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        letter-spacing: 1px;
+        text-decoration: none;
+        width: 120px;
+    }
+
+    .logo>img:nth-child(1) {
+        width: 20px;
+    }
+
+    .logo>span:nth-child(2) {
+        font-size: 1.4rem;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        display: flex;
+    }
+
+    .nav-menu>a {
+        padding: 18px 0px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+
+    ul.my-list a:after {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* head section end  */
+    .section1 {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .s1-child {
+        gap: 30px;
+    }
+
+    .s1-headind {
+        width: 100%;
+    }
+
+    .s1-headind>h1 {
+        font-size: 2.8rem;
+        width: 60%;
+    }
+
+    .s1-paragraph {
+        width: 500px;
+    }
+
+    .s1-paragraph>p {
+        font-size: 1rem;
+    }
+
+    .s1-img>img {
+        margin-top: 100px;
+        width: 400px;
+    }
+
 }
 
-.nav-menu {
-    position: fixed;
-    left: 0;
-    display: none;
-    top: 4rem;
-    flex-direction: column;
-    background-color: #96ff16;
-    color: black;
-    width: 100%;
-    transition: all 0.2s linear;
-    padding-bottom: 15px;
-}
-
-.logo {
-    letter-spacing: 1px;
-    text-decoration: none;
-    width: 120px;
-}
-
-.logo>img:nth-child(1) {
-    width: 20px;
-}
-
-.logo>span:nth-child(2) {
-    font-size: 1.4rem;
-}
-
-.nav-menu.active {
-    left: 0;
-    display: flex;
-}
-
-.nav-menu>a {
-    padding: 18px 0px;
-    font-size: 1rem;
-    letter-spacing: 1px;
-}
-
-
-ul.my-list a:after {
-    display: none;
-}
-
-.hamburger {
-    display: block;
-}
-
-.hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-/* head section end  */
-.section1 {
-    flex-direction: column;
-    padding: 50px 20px;
-}
-
-.s1-child {
-    gap: 30px;
-}
-
-.s1-headind{
-    width: 100%;
-}
-
-.s1-headind > h1 {
-    font-size: 2.8rem;
-    width: 60%;
-}
-
-.s1-paragraph{
-    width: 500px;
-}
-
-.s1-paragraph > p {
-    font-size: 1rem;
-}
-
-.s1-img > img {
-    margin-top: 100px;
-    width: 400px;
-}
-
-}
 @media screen and (max-width: 425px) {
-    
-    
-    
+
+
+
     .bar {
         display: block;
         width: 22px;
@@ -360,35 +361,35 @@ ul.my-list a:after {
         flex-direction: column;
         padding: 30px 0px;
     }
-    
+
     .s1-child {
         gap: 10px;
     }
-    
-    .s1-headind{
+
+    .s1-headind {
         width: 100%;
     }
     
-    .s1-headind > h1 {
+    .s1-headind>h1 {
         font-size: 1.9rem;
         padding: 0px 10px;
     }
     
-    .s1-paragraph{
+    .s1-paragraph {
         width: 80%;
         padding: 10px;
     }
-    
-    .s1-paragraph > p {
+
+    .s1-paragraph>p {
         font-size: 0.9rem;
     }
-    
-    .s1-img > img {
+
+    .s1-img>img {
         margin-top: 50px;
-        width: 300px;
+        width: 250px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 375px) {
@@ -397,30 +398,30 @@ ul.my-list a:after {
         flex-direction: column;
         padding: 30px 0px;
     }
-    
+
     .s1-child {
         gap: 10px;
     }
-    
-    .s1-headind{
+
+    .s1-headind {
         width: 100%;
     }
-    
-    .s1-headind > h1 {
+
+    .s1-headind>h1 {
         font-size: 1.5rem;
         padding: 0px 10px;
     }
-    
-    .s1-paragraph{
+
+    .s1-paragraph {
         width: 75%;
         padding: 10px;
     }
-    
-    .s1-paragraph > p {
+
+    .s1-paragraph>p {
         font-size: 0.7rem;
     }
-    
-    .s1-img > img {
+
+    .s1-img>img {
         margin-top: 50px;
         width: 200px;
     }
@@ -433,30 +434,30 @@ ul.my-list a:after {
         flex-direction: column;
         padding: 30px 0px;
     }
-    
+
     .s1-child {
         gap: 10px;
     }
-    
-    .s1-headind{
+
+    .s1-headind {
         width: 100%;
     }
-    
-    .s1-headind > h1 {
+
+    .s1-headind>h1 {
         font-size: 1.2rem;
         padding: 0px 10px;
     }
-    
-    .s1-paragraph{
+
+    .s1-paragraph {
         width: 75%;
         padding: 10px;
     }
-    
-    .s1-paragraph > p {
+
+    .s1-paragraph>p {
         font-size: 0.6rem;
     }
-    
-    .s1-img > img {
+
+    .s1-img>img {
         margin-top: 50px;
         width: 150px;
     }
