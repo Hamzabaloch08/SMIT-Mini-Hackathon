@@ -16,7 +16,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 45px;
+    padding: 20px 45px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -26,17 +31,17 @@ nav {
     letter-spacing: 1px;
     color: rgb(190, 190, 190);
     text-decoration: none;
-    width: 180px;
+    width: 170px;
 }
 
 .logo>i:nth-child(1)>img {
-    width: 30px;
+    width: 28px;
 }
 
 .logo>span:nth-child(2) {
     color: #000000;
     font-weight: 400;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .nav-menu {
@@ -115,23 +120,22 @@ ul.my-list a:hover:after {
 .section1 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 120px 80px;
+    padding: 180px 80px;
 }
 
 
 .s1-child {
     display: flex;
     flex-direction: column;
-    gap: 50px 0px;
+    gap: 30px 0px;
 }
 
 .s1-headind {
-    width: 450px;
+    width: 420px;
 }
 
 .s1-headind>h1 {
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -150,9 +154,6 @@ ul.my-list a:hover:after {
 
 .s1-button {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 250px;
     height: 9vh;
 }
 
@@ -168,8 +169,8 @@ ul.my-list a:hover:after {
 }
 
 .s1-button>button:active {
-    padding: 16px 16px;
     transform: translateY(1px);
+    background-color: #2a2c38;
 
 }
 
