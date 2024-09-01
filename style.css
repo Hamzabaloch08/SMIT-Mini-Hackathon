@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 38px;
+    padding: 28px 45px;
 }
 
 .logo {
@@ -29,11 +29,11 @@ nav {
     width: 180px;
 }
 
-.logo>img:nth-child(1){
+.logo>img:nth-child(1) {
     width: 30px;
 }
 
-.logo>span:nth-child(2){
+.logo>span:nth-child(2) {
     color: #000000;
     font-weight: 400;
     font-size: 2.2rem;
@@ -48,12 +48,12 @@ nav {
 .nav-menu>a {
     position: relative;
     color: #000000;
-    padding: 5px 20px;
+    padding: 5px 22px;
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
-    letter-spacing: 1px;
     transition: all 0.3s linear;
+    margin-right: 10px;
 }
 
 /* underline animation for nav links */
@@ -76,17 +76,18 @@ ul.my-list a:hover:after {
     left: 0;
 }
 
-#btn{
+#btn {
     background-color: transparent;
-    border: 1px solid #000000;
+    border: 1px solid #191A23;
     padding: 17px 14px;
     border-radius: 10px;
     font-size: 1rem;
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 
-#btn:hover{
-    background-color: #000000;
+#btn:hover {
+    background-color: #191A23;
     color: #ffffff;
 }
 
@@ -111,7 +112,7 @@ ul.my-list a:hover:after {
 /* main secion start */
 /* section one */
 
-.section1{
+.section1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,42 +120,83 @@ ul.my-list a:hover:after {
 }
 
 
-.s1-child{
+.s1-child {
     display: flex;
     flex-direction: column;
     gap: 50px 0px;
 }
 
-.s1-headind{
+.s1-headind {
     width: 450px;
 }
 
-.s1-headind>h1{
+.s1-headind>h1 {
     font-size: 3.3rem;
     font-weight: 500;
 }
 
-.s1-paragraph{
+.s1-paragraph {
     width: 450px;
 }
 
-.s1-paragraph>p{
+.s1-paragraph>p {
     font-size: 1.15rem;
 }
 
-.s1-img>img{
+.s1-img>img {
     width: 440px;
+    cursor: pointer;
 }
 
-.section2{
-    width: 100%;
-}
-
-.section2>img{
-    width: 100%;
-}
-
-.section3{
+.s1-button{
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    width: 250px;
+    height: 9vh;
+}
+
+.s1-button>button {
+    background-color: #191A23;
+    color: #ffffff;
+    padding: 16px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.s1-button>button:active{
+    padding: 16px 16px;
+    transform: translateY(1px);
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+}
+
+.section2>span{
+    cursor: pointer;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 50px;
+}
+
+.section3>div:nth-child(1)>h1 {
+    background-color: #B9FF66;
+    padding: 0px 8px;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.section3>div:nth-child(2)>p {
+    font-size: 1rem;
+    width: 52%;
 }
