@@ -29,7 +29,7 @@ nav {
     width: 180px;
 }
 
-.logo>img:nth-child(1) {
+.logo>i:nth-child(1)>img {
     width: 30px;
 }
 
@@ -148,7 +148,7 @@ ul.my-list a:hover:after {
     cursor: pointer;
 }
 
-.s1-button{
+.s1-button {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -167,7 +167,7 @@ ul.my-list a:hover:after {
     cursor: pointer;
 }
 
-.s1-button>button:active{
+.s1-button>button:active {
     padding: 16px 16px;
     transform: translateY(1px);
 
@@ -179,24 +179,110 @@ ul.my-list a:hover:after {
     padding: 70px 50px;
 }
 
-.section2>span{
+.section2>span {
     cursor: pointer;
 }
 
 .section3 {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 0px 50px;
     padding: 80px 50px;
 }
 
 .section3>div:nth-child(1)>h1 {
     background-color: #B9FF66;
-    padding: 0px 8px;
-    font-size: 2.2rem;
+    padding: 0px 19px;
+    font-size: 2.3rem;
     font-weight: 500;
 }
+
 .section3>div:nth-child(2)>p {
     font-size: 1rem;
     width: 52%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.s4-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #191A23;
+    border-bottom: 8px solid #191A23;
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    padding: 50px;
+}
+
+.s4-card1 {
+    background-color: #F3F3F3;
+}
+
+#c1-info-head{
+    width: max-content;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 0px 8px;
+}
+
+.c1-info-learn_more{
+    display: flex;
+    align-items: center;
+    gap: 0px 15px;
+    padding: 90px 0px;
+}
+
+.c1-info-learn_more>i{
+    cursor: pointer;
+}
+
+.c1-info-learn_more>h1:last-child{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.s4-card2 {
+    background-color: #B9FF66;
+}
+
+#c2-info-head{
+    width: max-content;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 0px 8px;
+}
+
+.c-info-img{
+    align-content: center;
+    cursor: pointer;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    gap: 0px 50px;
+    padding: 80px 50px;
+}
+
+.section5>div:nth-child(1)>h1 {
+    background-color: #B9FF66;
+    padding: 0px 19px;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.section5>div:nth-child(2)>p {
+    font-size: 1rem;
+    width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
