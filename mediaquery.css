@@ -451,18 +451,18 @@ ul.my-list a:hover:after {
     .section5 {
         display: flex;
         align-items: center;
-        gap: 0px 50px;
+        gap: 0px 30px;
         padding: 80px 30px;
     }
     
     .section5>div:nth-child(1)>h1 {
         padding: 0px 19px;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         font-weight: 500;
     }
     
     .section5>div:nth-child(2)>p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         width: 65%;
     }
 }
@@ -482,16 +482,12 @@ ul.my-list a:hover:after {
         display: none;
         top: 4rem;
         flex-direction: column;
-        background-color: #96ff16;
-        color: black;
         width: 100%;
-        transition: all 0.2s linear;
         padding-bottom: 15px;
     }
 
     .logo {
         letter-spacing: 1px;
-        text-decoration: none;
         width: 122px;
     }
 
@@ -576,14 +572,8 @@ ul.my-list a:hover:after {
     }
     
     .s1-button>button {
-        background-color: #191A23;
-        color: #ffffff;
         padding: 16px 16px;
-        border: none;
-        border-radius: 10px;
         font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
-        cursor: pointer;
     }
     
     .s1-button>button:active {
@@ -600,10 +590,6 @@ ul.my-list a:hover:after {
         gap: 30px 0px;
         margin-top: -100px;
         width: 100%;
-    }
-    
-    .section2>span {
-        cursor: pointer;
     }
     
     .section2>span>img {
@@ -627,12 +613,11 @@ ul.my-list a:hover:after {
     }
     
     .section3>div:nth-child(2){
-        width: 90%;
+        width: 78%;
     }
     .section3>div:nth-child(2)>p {
         font-size: 0.9rem;
         width: 100%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .section4{
@@ -646,24 +631,15 @@ ul.my-list a:hover:after {
     .s4-card {
         display: flex;
         justify-content: space-between;
-        border: 1px solid #191A23;
-        border-bottom: 8px solid #191A23;
         width: 490px;
         height: 250px;
-        border-radius: 45px;
         padding: 40px 30px;
-    }
-    
-    .s4-card1 {
-        background-color: #F3F3F3;
     }
     
     #c1-info-head{
         width: max-content;
         font-size: 1.3rem;
         font-weight: 500;
-        background-color: #B9FF66;
-        border-radius: 7px;
         padding: 0px 8px;
     }
     
