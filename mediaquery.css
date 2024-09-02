@@ -288,7 +288,6 @@ ul.my-list a:hover:after {
 
     .logo {
         letter-spacing: 1px;
-        text-decoration: none;
         width: 140px;
     }
 
@@ -303,47 +302,13 @@ ul.my-list a:hover:after {
     .nav-menu>a {
         padding: 5px 12px;
         font-size: 0.9rem;
-        letter-spacing: 1px;
-        transition: all 0.3s linear;
-    }
-
-    /* underline animation for nav links */
-
-    ul.my-list a::after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        width: 0px;
-        height: 2px;
-        transition: all 0.7s ease-out;
-    }
-
-    /* underline animation for nav links */
-
-    ul.my-list a:hover:after {
-        width: 100%;
-        left: 0;
     }
 
     #btn {
         padding: 14px 12px;
         font-size: 0.8rem;
     }
-
-    /* hamburger icons */
-    .hamburger {
-        display: none;
-    }
-
-    .bar {
-        display: block;
-        width: 25px;
-        height: 2px;
-        margin: 5px auto;
-    }
-
-    /* hamburger icons */
+    
     /* head section end*/
 
     .section1 {
