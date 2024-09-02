@@ -308,7 +308,7 @@ ul.my-list a:hover:after {
         padding: 14px 12px;
         font-size: 0.8rem;
     }
-    
+
     /* head section end*/
 
     .section1 {
@@ -354,30 +354,18 @@ ul.my-list a:hover:after {
     }
     
     .s1-button>button {
-        background-color: #191A23;
-        color: #ffffff;
         padding: 16px 16px;
-        border: none;
-        border-radius: 10px;
         font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
-        cursor: pointer;
     }
     
     .s1-button>button:active {
-        padding: 16px 16px;
-        transform: translateY(1px);
-    
+        padding: 16px 16px;    
     }
     
     .section2 {
         display: flex;
         justify-content: space-between;
         padding: 50px 50px;
-    }
-    
-    .section2>span {
-        cursor: pointer;
     }
     
     .section2>span>img {
@@ -393,7 +381,6 @@ ul.my-list a:hover:after {
     }
     
     .section3>div:nth-child(1)>h1 {
-        background-color: #B9FF66;
         padding: 0px 12px;
         font-size: 1.7rem;
         font-weight: 500;
@@ -402,7 +389,6 @@ ul.my-list a:hover:after {
     .section3>div:nth-child(2)>p {
         font-size: 0.9rem;
         width: 64%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .section4{
@@ -416,23 +402,15 @@ ul.my-list a:hover:after {
     .s4-card {
         display: flex;
         justify-content: space-between;
-        border: 1px solid #191A23;
-        border-bottom: 8px solid #191A23;
         width: 750px;
         height: 250px;
-        border-radius: 45px;
         padding: 40px;
-    }
-    
-    .s4-card1 {
-        background-color: #F3F3F3;
     }
     
     #c1-info-head{
         width: max-content;
         font-size: 1.5rem;
         font-weight: 500;
-        background-color: #B9FF66;
         border-radius: 7px;
         padding: 0px 8px;
     }
@@ -455,15 +433,10 @@ ul.my-list a:hover:after {
         font-size: 1.2rem;
     }
     
-    .s4-card2 {
-        background-color: #B9FF66;
-    }
-    
     #c2-info-head{
         width: max-content;
         font-size: 1.5rem;
         font-weight: 500;
-        background-color: #ffffff;
         border-radius: 7px;
         padding: 0px 8px;
     }
@@ -473,27 +446,24 @@ ul.my-list a:hover:after {
     }
     .c-info-img>img{
         width: 180px;
-        cursor: pointer;
     }
     
     .section5 {
         display: flex;
         align-items: center;
         gap: 0px 50px;
-        padding: 80px 50px;
+        padding: 80px 30px;
     }
     
     .section5>div:nth-child(1)>h1 {
-        background-color: #B9FF66;
         padding: 0px 19px;
-        font-size: 2.3rem;
+        font-size: 1.8rem;
         font-weight: 500;
     }
     
     .section5>div:nth-child(2)>p {
         font-size: 1rem;
         width: 65%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
