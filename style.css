@@ -130,17 +130,17 @@ ul.my-list a:hover:after {
     gap: 30px 0px;
 }
 
-.s1-headind {
-    width: 420px;
+.s1-heading {
+    width: 60%;
 }
 
-.s1-headind>h1 {
+.s1-heading>h1 {
     font-size: 3rem;
     font-weight: 500;
 }
 
 .s1-paragraph {
-    width: 450px;
+    width: 70%;
 }
 
 .s1-paragraph>p {
