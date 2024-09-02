@@ -378,7 +378,7 @@ ul.my-list a:hover:after {
 .g_box-sub>.plus1{
     position: absolute;
     width: 15px;
-    height: 2px;
+    height: 1px;
     background-color: #000000;
     transform: rotate(90deg);
     display: none;
