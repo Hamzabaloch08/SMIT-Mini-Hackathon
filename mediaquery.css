@@ -106,7 +106,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 120px 80px;
+        padding: 340px 200px;
     }
 
 
@@ -196,7 +196,7 @@
     .section4 {
         display: flex;
         justify-content: space-between;
-        padding: 80px 50px;
+        padding: 120px 200px;
     }
 
     .s4-card {
@@ -694,49 +694,49 @@
     .section6 {
         gap: 20px 0px;
     }
-    
+
     .s6-g_box-green {
         width: 92%;
         padding: 10px 40px;
     }
-    
+
     .g_box {
         padding-bottom: 30px;
         padding-top: 20px;
     }
-    
+
     .num-heading {
         gap: 0px 10px;
     }
-    
+
     .num-heading>h1 {
         font-size: 2rem;
     }
-    
+
     .num-heading>h2 {
         font-size: 1.1rem;
     }
-    
+
     .g_box-sub {
         width: 45px;
         height: 45px;
     }
-    
-    
-    .g_box-sub>div:first-child{
+
+
+    .g_box-sub>div:first-child {
         height: 3px;
     }
-    
+
     .g_box-graph {
         font-size: 0.8rem;
         padding: 15px 0px;
     }
-    
-    .s6-g_box-gray{
+
+    .s6-g_box-gray {
         padding: 15px 40px;
     }
-    
-    .g_box-sub>.plus{
+
+    .g_box-sub>.plus {
         height: 3px;
     }
 
@@ -908,50 +908,50 @@
     .section6 {
         gap: 20px 0px;
     }
-    
+
     .s6-g_box-green {
         width: 92%;
         padding: 10px 40px;
     }
-    
+
     .g_box {
         padding-bottom: 30px;
         padding-top: 20px;
     }
-    
+
     .num-heading {
         gap: 0px 10px;
     }
-    
+
     .num-heading>h1 {
         font-size: 1.8rem;
     }
-    
+
     .num-heading>h2 {
         font-size: 1rem;
     }
-    
+
     .g_box-sub {
         width: 40px;
         height: 40px;
     }
-    
-    
-    .g_box-sub>div:first-child{
+
+
+    .g_box-sub>div:first-child {
         height: 2px;
         width: 15px;
     }
-    
+
     .g_box-graph {
         font-size: 0.7rem;
         padding: 15px 0px;
     }
-    
-    .s6-g_box-gray{
+
+    .s6-g_box-gray {
         padding: 15px 40px;
     }
-    
-    .g_box-sub>.plus{
+
+    .g_box-sub>.plus {
         height: 2px;
         width: 15px;
     }
@@ -1111,7 +1111,7 @@
         display: none;
     }
 
-    #img-none{
+    #img-none {
         display: none;
     }
 
@@ -1120,27 +1120,27 @@
         padding: 0px 9px;
     }
 
-    .s4-card1{
+    .s4-card1 {
         height: 260;
         border: none;
     }
 
-    .c1-info-425{
+    .c1-info-425 {
         display: flex;
         flex-direction: column;
         gap: 15px 0px;
     }
 
-    .c1-info-425>h1{
+    .c1-info-425>h1 {
         font-size: 1.4rem;
         font-weight: 500;
     }
 
-    .c1-info-425>p{
+    .c1-info-425>p {
         font-size: 0.83rem;
     }
 
-    .c1-info-425>button{
+    .c1-info-425>button {
         border: none;
         background-color: #191A23;
         color: #ffffff;
@@ -1164,7 +1164,7 @@
         margin-right: 50px;
     }
 
-    .c-1>img{
+    .c-1>img {
         display: none;
     }
 
@@ -1186,17 +1186,85 @@
     .section5>div:nth-child(2)>p {
         font-size: 0.8rem;
     }
+
+    .s6-g_box-green {
+        width: 92%;
+        padding: 10px 20px;
+        background-color: #F3F3F3;
+    }
+
+    .g_box {
+        padding: 20px 0px;
+    }
+
+    .num-heading {
+        gap: 0px 5px;
+    }
+
+    .num-heading>h1 {
+        font-size: 1.4rem;
+    }
+
+    .num-heading>h2 {
+        font-size: 0.8rem;
+    }
+
+    .g_box-sub {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    .g_box-sub>div:first-child {
+        height: 1px;
+        width: 15px;
+    }
+
+    .g_box-graph {
+        display: none;
+    }
+
+    .s6-g_box-gray {
+        padding: 15px 20px;
+    }
+
+    .g_box-sub>.plus {
+        height: 1px;
+        width: 15px;
+    }
+    .g_box-sub>.plus1 {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 375px) {
 
+    .s6-g_box-green {
+        padding: 10px 15px;
+    }
     
+    .num-heading>h1 {
+        font-size: 1.3rem;
+    }
+    
+    .num-heading>h2 {
+        font-size: 0.7rem;
+    }
+    
+    .g_box-sub {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .s6-g_box-gray{
+        padding: 15px 15px;
+    }
 }
 
 
 @media screen and (max-width: 320px) {
 
-    nav{
+    nav {
         padding: 30px 20px;
     }
 
