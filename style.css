@@ -384,3 +384,79 @@ ul.my-list a:hover:after {
     display: none;
 }
 
+.section7{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section7>form{
+    position: relative;
+    width: 85%;
+    background-color: #F3F3F3;
+    border-radius: 30px;
+}
+
+.form-details{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 70px;
+}
+
+.sec7-form-checkbox>input[type="radio"]{
+    accent-color:  #96ff16;
+    border: 1px solid #191A23;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.sec7-inp-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec7-inp-fields>label{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.sec7-inp-fields>input{
+    width: 50%;
+    height: 8vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #191A23;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.sec7-inp-fields>textarea{
+    width: 50%;
+    height: 28vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #191A23;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sending-btn>button{
+    background-color: #191A23;
+    color: #ffffff;
+    padding: 20px 195px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.sec7-img{
+    position: absolute;
+    top: 40;
+    right: 310;
+    width: 0px;
+}
+
+.sec7-img>img{
+    width: 580px;
+}
