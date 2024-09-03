@@ -1,5 +1,4 @@
-# Makeup Magic - Responsive Website
-
+# Smit Module1 Hackathon
 ## Overview
 
 Welcome to **Makeup Magic**, a mini project created for the SMIT mini hackathon. This project showcases a responsive website designed with a focus on makeup products and beauty tips. It demonstrates the use of HTML and CSS to build a visually appealing and functional site that adjusts gracefully to different screen sizes.
