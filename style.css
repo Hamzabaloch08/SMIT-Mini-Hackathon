@@ -208,7 +208,7 @@ ul.my-list a:hover:after {
 .section4 {
     display: flex;
     justify-content: space-between;
-    padding: 80px 50px;
+    padding: 80px 20px;
 }
 
 .s4-card {
@@ -216,10 +216,10 @@ ul.my-list a:hover:after {
     justify-content: space-between;
     border: 1px solid #191A23;
     border-bottom: 8px solid #191A23;
-    width: 600px;
+    width: 550px;
     height: 310px;
     border-radius: 45px;
-    padding: 50px;
+    padding: 50px 50px;
 }
 
 .s4-card1 {
@@ -228,7 +228,7 @@ ul.my-list a:hover:after {
 
 #c1-info-head {
     width: max-content;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     background-color: #B9FF66;
     border-radius: 7px;
@@ -250,9 +250,14 @@ ul.my-list a:hover:after {
     cursor: pointer;
 }
 
+.c1-info-learn_more>i>img{
+    width: 32px;
+}
+
 .c1-info-learn_more>h1:last-child {
     font-weight: 500;
     cursor: pointer;
+    font-size: 1.2rem;
 }
 
 .s4-card2 {
@@ -261,7 +266,7 @@ ul.my-list a:hover:after {
 
 #c2-info-head {
     width: max-content;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     background-color: #ffffff;
     border-radius: 7px;
@@ -271,6 +276,10 @@ ul.my-list a:hover:after {
 .c-info-img {
     align-content: center;
     cursor: pointer;
+}
+
+.c-info-img>img{
+    width: 180px;
 }
 
 .section5 {
@@ -437,7 +446,7 @@ ul.my-list a:hover:after {
     outline: none;
     border: 1px solid #191A23;
     font-size: 1rem;
-padding: 0px 20px;
+    padding: 0px 20px;
     padding-top: 20px;
     resize: none;
 }
@@ -464,17 +473,17 @@ padding: 0px 20px;
 }
 
 
-footer{
+footer {
     background-color: #191A23;
     color: #ffffff;
-    height: 30vh;
-    padding: 40px 45px;
+    padding: 0px 50px;
+    padding-top: 70px;
     margin-top: 100px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
-.foo-nav{
+.foo-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -500,20 +509,88 @@ footer{
 .foo-nav_menu>a {
     position: relative;
     color: #ffffff;
-    padding: 5px 22px;
+    padding: 5px 16px;
     list-style: none;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1rem;
 }
 
 
-.foo-nav-i-box{
+.foo-nav-i-box {
     display: flex;
     align-items: center;
-    gap: 0px 30px;
+    gap: 0px 20px;
 }
 
-.foo-nav-i-box>i{
-   width: 33px; 
-   height: 33px;
+.foo-nav-i-box>i {
+    width: 30px;
+    height: 30px;
+}
+
+.foo-contect_subscribe {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+}
+
+.foo-contect-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+}
+
+.foo-contect-sec>h1 {
+    background-color: #B9FF66;
+    color: #191A23;
+    padding: 3px 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: max-content;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foo-contect-sec>h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.foo-subs-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292A32;
+    width: 470px;
+    height: 184px;
+    gap: 0px 15px;
+    border-radius: 15px;
+}
+
+.foo-subs-sec>input{
+    width: 200px;
+    height: 67px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 1rem;
+    padding-left: 20px;
+    color: #ffffff;
+    outline: none;
+}
+
+.foo-subs-sec>input::placeholder{
+    color: #ffffff;
+}
+
+.foo-subs-sec>button{
+    width: 200px;
+    height: 68px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.foo-nav-i-box2{
+    display: none;
 }
